@@ -1,0 +1,79 @@
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  background-color: #fdfce8;
+  color: #3d251e;
+  line-height: 1.7;
+}
+
+header {
+  background: #ddd;
+  padding: 1.5rem;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 a {
+  text-align: center;
+  text-decoration: none;
+  color: #3d251e;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #3d251e;
+  transition: color 0.2s ease-in;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+main {
+  min-height: 60vh;
+  background-image: url("images/house.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #2B1700;
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  transition: all 0.3s ease-in-out;
+  animation: fadeIn 1s ease-in;
+}
+
+article {
+  margin-bottom: 3rem;
+}
+
+.date {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #2B1700;
+  font-weight: bold;
+}
+
+.read-more:hover {
+  text-decoration: none;
+}
+
+footer {
+
+  text-align: center;
+  margin: 0;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: #777;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
